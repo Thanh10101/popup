@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Popup Xác Nhận</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <diV class="center-screen">
+        <form action="">
+            <div class="form">
+                <label for="name">Name</label>
+                <!-- Removed extra spaces within the id attribute -->
+                <input id="name" type="text">
+
+                <!-- Added a label for the checkbox for better accessibility -->
+                <label>
+                    <input id="checkbox" type="checkbox">
+                    Bạn có đồng ý với điều khoản
+                </label>
+
+                <button id="button-submit" type="button">Submit</button>
+
+                <!-- Made sure the popup is hidden initially -->
+            </div>
+            <div class="popup" style="display: none;">
+                <button type="button">CONFIRM</button>
+                <button type="button">Close</button>
+            </div>
+        </form>
+    </diV>
+    <script src="script.js ">
+    </script>
+</body>
+
+</html>
